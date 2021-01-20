@@ -4,8 +4,8 @@
 pkgs.stdenv.mkDerivation {
   name = "fetch-hls";
   src = pkgs.fetchurl {
-    url = "https://github.com/dustinblackman/fetch-hls/releases/download/v0.1.5/fetch-hls_0.1.5_linux_arm64.tar.gz";
-    sha256 = "17w9n3alvsa29nlp4xrqyaqa537xpswmdkhcfxvs3qii0dh8lwxs";
+    url = "https://github.com/dustinblackman/fetch-hls/releases/download/v0.1.5/fetch-hls_0.1.5_linux_amd64.tar.gz";
+    sha256 = "1c5j7siqvws0r6648z7v6sfwzp79lcg7kcf30d6ga5x7y8bpnji4";
   };
   phases = [ "installPhase" ];
   installPhase = ''
