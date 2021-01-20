@@ -6,5 +6,6 @@
   modules = import ./modules;
   overlays = import ./overlays;
 
+  fetch-hls = pkgs.callPackage ./pkgs/fetch-hls.nix { };
   gomodrun = pkgs.callPackage ./pkgs/gomodrun.nix { };
 }
