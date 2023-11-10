@@ -4,8 +4,8 @@
 pkgs.stdenv.mkDerivation {
   name = "oatmeal";
   src = pkgs.fetchurl {
-    url = "https://github.com/dustinblackman/oatmeal/releases/download/v0.2.2/oatmeal_0.2.2_linux_amd64.tar.gz";
-    sha256 = "1r8h3bm5z67kyrjlrzrljs3vm282mx3vcsn9ss17m6v3zm8k69pk";
+    url = "https://github.com/dustinblackman/oatmeal/releases/download/v0.2.3/oatmeal_0.2.3_linux_amd64.tar.gz";
+    sha256 = "1rvsqfgyd0jjxch8fsr90w7mkxf7sj1yqd9rip0mx24jh8ypbxsn";
   };
   phases = [ "installPhase" ];
   installPhase = ''
